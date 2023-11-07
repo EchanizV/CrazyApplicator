@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VueController">
+   <center>
+      <AnchorPane prefHeight="580.0" prefWidth="461.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="veloC" fitHeight="150.0" fitWidth="200.0" layoutX="131.0" layoutY="43.0" onMouseClicked="#clickMeCourse" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/téléchargement.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="veloV" fitHeight="150.0" fitWidth="200.0" layoutX="131.0" layoutY="384.0" onMouseClicked="#clickMeVille" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/téléchargement%20(1).jpg" />
+               </image>
+            </ImageView>
+            <Label fx:id="essai" layoutX="217.0" layoutY="282.0" text="Label" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
